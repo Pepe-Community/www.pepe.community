@@ -69,9 +69,17 @@
 	
 	.navbar{text-align: left; }
 	
-	.navbar .container{padding: 20px 0;}
+	.navbar .container{padding: 10px 0;}
+	.navbar .navbar-brand img {
+		width: 50px;
+	}
+	.navbar-brand {
+		margin-left: 1rem;
+		margin-right: 1rem;
+		padding: 0;
+	}
 	
-	.navbar-colored .container{padding: 10px 0;}
+	.navbar-colored .container{padding: 5px 0;}
 	
 	.navbar-collapse{background-color: #fff; margin-top: 10px; max-height: 440px; overflow-y: scroll;}
 	
